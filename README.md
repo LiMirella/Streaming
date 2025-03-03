@@ -4,8 +4,6 @@ Este é um projeto inspirado no site da **Netflix**, criado com **HTML** e **CSS
 
 ## 🌟 Funcionalidades
 
-- **Design Responsivo**: O layout se adapta a diferentes tamanhos de tela (desktop, tablet, celular).
-- **Seção de Filmes e Séries**: Organiza o conteúdo em uma grade com títulos e imagens de filmes e séries.
 - **Menu de Navegação**: Um menu fixo na parte superior da página, simulando a navegação do site da Netflix.
 - **Animações e Transições**: Animações e transições para melhorar a interação com o usuário.
 
