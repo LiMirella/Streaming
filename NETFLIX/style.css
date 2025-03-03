@@ -1,0 +1,137 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("assets/netflix-background-1024x576.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+    z-index: 1000;
+}
+
+h2{
+    color: red;
+    font-size: 45px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.cabecalho_botoes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.botao-lingua, .botao-login {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 5%;
+}
+
+.conteudo {
+    max-width: 600px;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.instrucao {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.campo-email {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+
+.botao-enviar {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .formulario {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .campo-email, .botao-enviar {
+        width: 100%;
+    }
+}
+.responsabilidade{
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
